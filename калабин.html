@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
+
+	<title>Сайт</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/icons/fontawesome/css/style.css">
+	<link rel="stylesheet" href="js/vendors/slick/slick.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="js/vendors/swipebox/css/swipebox.min.css">
+	<link rel="stylesheet" href="js/vendors/audio/css/styles.css">
+	<link rel="stylesheet" href="css/style.css">
+    
+	<!-- SKIN -->
+	<link rel="stylesheet" title="skin1" href="css/skins/skin1.css"/>
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+<body id="nava-artist" class="header2 no-padding">
+
+<!-- ARTIST HOME INTRO -->
+<div class="artist-home center-content">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 wow fadeInLeft" data-wow-duration=".8s">
+				<h2 class="text-left">Калабин<br>Production</h2>
+				<p><em>Добро пожаловать </em></p>
+				<p><em>Здесь вы можете наблюдать мои фото и песни</em></p>
+			</div>
+		</div>
+		<div class="mainContainer">
+			<div class="container">
+				<div class="containerPlayer">
+					<div id="listContainer" class="playlistContainer">
+						<ul id="playListContainer">
+							<li class="activeAudio" data-src="audio/1.mp3">
+								<a href="#">
+									<img src="https://sun9-82.userapi.com/impf/c849536/v849536506/d4f81/yBcGip3PElY.jpg?size=160x0&quality=90&sign=5b1f958f4faf71e8f2705f893bf0f620" width="90" alt=""/>
+									<h5>Ghostbusters <span>Ray Parker, Jr.</span></h5>
+								</a>
+							</li>
+							<li data-src="audio/2.mp3">
+								<a href="#">
+									<img src="https://sun4-11.userapi.com/impf/c854216/v854216892/22eff/T0wylhisbYE.jpg?size=160x0&quality=90&sign=71a794fc181071f74bb13396a9afb22f" width="90" alt=""/>
+									<h5>House of the Rising Sun <span>The Animals</span></h5>
+								</a>
+							</li>
+							<li data-src="audio/3.mp3">
+								<a href="#">
+									<img src="https://sun4-16.userapi.com/impf/lIrL-_48Mov5AE2wcCU0giMjsmtGarf0xfnEiQ/POeGkMR9gpU.jpg?size=160x0&quality=90&sign=f93be6f34270a247fb926a69c912fba3"" width="90" alt=""/>
+									<h5>Zombie<span>The Cranberries</span></h5>
+								</a>
+							</li>
+							<li data-src="audio/4.mp3">
+								<a href="#">
+									<img src="https://sun9-49.userapi.com/impf/c846220/v846220818/14fb43/R870XjNa4Sc.jpg?size=160x0&quality=90&sign=f5a01d1cf49e3567b47109552bbac4aa" width="90" alt=""/>
+									<h5>Get Lucky <span>Daft Punk</span></h5>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div id="playerContainer">
+						<div id="controlContainer">
+							<ul class="controls">
+								<li>
+									<a class="left" data-attr="prevAudio"></a>
+								</li>
+								<li>
+									<a class="play" data-attr="playPauseAudio"></a>
+								</li>
+								<li>
+									<a class="right" data-attr="nextAudio"></a>
+								</li>
+								<li>
+									<div class="progress">
+										<div data-attr="seekableTrack" class="seekableTrack"></div>
+										<div class="updateProgress"></div>
+									</div>
+								</li>
+								<li>
+									<span data-attr="timer" class="audioTime">0:00</span>
+								</li>
+								<li>
+									<div class="volumeControl">
+										<div class="volume volume1"></div>
+										<input class="bar volume-hidden" id="bar" data-attr="rangeVolume" type="range" min="0" max="1" step="0.1" value="0.7" />
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- HEADER -->
+<header class="header-scroll">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="navbar-header pull-left">
+					<!-- Logo -->
+					<a class="navbar-brand" href="./nava-artist-home.html"><img src="images/logo-lite.png" class="img-responsive" alt=""/></a>
+				</div>
+			</div>
+
+			<div class="col-md-8">
+				<div class="lang-search pull-right">
+				</div>
+
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			
+				<!-- MENU -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="./nava-artist-home.html">Шапка</a></li>
+						<li class="dropdown">
+							<a href="./nava-artist-videos.html"></a>
+							<ul class="dropdown-menu">
+								<li><a href="./nava-artist-videos.html"></a></li>
+								<li><a href="./nava-artist-single-video.html"></a></li>
+								<li><a href="./nava-artist-404.html"></a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+
+<!-- GALLERY -->
+<div class="home-artist-gallery">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="text-center space80">
+				
+					<font size="5" color="red" >Мои любимые фото!</font>
+				</div>
+				<div class="row no-margin">
+					<div class="col-md-9 no-padding">
+						<div class="row no-margin">
+							<div class="col-md-8 no-padding">
+								<div class="gallery-item wow fadeInUpBig" data-wow-duration=".8s">
+										<div class="album">
+											<img src="images/home/gallery/1.jpg" class="img-responsive" alt="">
+											<div class="ag-overlay">
+												<div class="ag-overlay-inner">
+													<h3><span>Это кот</span>Что с ним не знаю</h3>
+												</div>
+											</div>
+										</div>
+									
+								</div>
+							</div>
+							<div class="col-md-4 no-padding">
+								<div class="gallery-item wow fadeInUpBig" data-wow-duration=".8s">
+									
+										<div class="album">
+											<img src="images/home/gallery/2.jpg" class="img-responsive" alt="">
+											<div class="ag-overlay">
+												<div class="ag-overlay-inner">
+													<h3><span>Это закат</span>Прикольно тут наверное</h3>
+												</div>
+											</div>
+										</div>
+									
+								</div>
+							</div>
+						</div>
+
+						<div class="row no-margin">
+							<div class="col-md-4 no-padding">
+								<div class="gallery-item wow fadeInUpBig" data-wow-duration=".8s">
+									
+										<div class="album">
+											<img src="images/home/gallery/3.jpg" class="img-responsive" alt="">
+											<div class="ag-overlay">
+												<div class="ag-overlay-inner">
+													<h3><span>Опять кот</span>Сидит отдыхает</h3>
+												</div>
+											</div>
+										</div>
+									
+								</div>
+							</div>
+							<div class="col-md-8 no-padding">
+								<div class="gallery-item wow fadeInUpBig" data-wow-duration=".8s">
+								
+										<div class="album">
+											<img src="images/home/gallery/4.jpg" class="img-responsive" alt="">
+											<div class="ag-overlay">
+												<div class="ag-overlay-inner">
+													<h3><span>Это свиньи</span>Фоткал сам</h3>
+												</div>
+											</div>
+										</div>
+									
+								</div>
+							</div>
+						</div>
+
+						<div class="row no-margin">
+							<div class="col-md-8 no-padding">
+								<div class="gallery-item wow fadeInUpBig" data-wow-duration=".8s">
+									
+										<div class="album">
+											<img src="images/home/gallery/5.jpg" class="img-responsive" alt="">
+											<div class="ag-overlay">
+												<div class="ag-overlay-inner">
+													<h3><span>Закат</span></h3>
+												</div>
+											</div>
+										</div>
+								
+								</div>
+							</div>
+							<div class="col-md-4 no-padding">
+								<div class="gallery-item wow fadeInUpBig" data-wow-duration=".8s">
+									
+										<div class="album">
+											<img src="images/home/gallery/6.jpg" class="img-responsive" alt="">
+											<div class="ag-overlay">
+												<div class="ag-overlay-inner">
+													<h3><span>Рассвет</span></h3>
+												</div>
+											</div>
+										</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-3 no-padding">
+						<div class="row no-margin">
+							<div class="col-md-12 no-padding">
+								<div class="gallery-item wow fadeInUpBig" data-wow-duration=".8s">
+									
+										<div class="album">
+											<img src="images/home/gallery/7.jpg" class="img-responsive" alt="">
+										</div>
+									
+								</div>
+								<div class="gallery-item wow fadeInUpBig" data-wow-duration=".8s">
+									
+										<div class="album">
+											<img src="images/home/gallery/8.jpg" class="img-responsive" alt="">
+											<div class="ag-overlay">
+												<div class="ag-overlay-inner">
+													<h3><span>Солнце прикольное</span></h3>
+												</div>
+											</div>
+										</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<!-- FOOTER -->
+<footer class="footer2 wow fadeInUp" data-wow-duration="1s">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<h5><span>Если хочешь связаться со мной</span>Мои контактные данные</h5>
+				<div class="footer-social">
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-soundcloud"></i></a>
+				</div>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+		<div class="row copyright">
+			<div class="col-md-12 text-center">
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+
+<div class="audio-player sound1">
+	<div class="audio-close">X</div>
+	<audio class="audioplayer" id="sound1" src="audio/1.mp3" type="audio/mp3" controls="controls"></audio>
+</div>
+
+<div class="audio-player sound2">
+	<div class="audio-close">X</div>
+	<audio class="audioplayer" id="sound2" src="audio/2.mp3" type="audio/mp3" controls="controls"></audio>
+</div>
+
+<div class="audio-player sound3">
+	<div class="audio-close">X</div>
+	<audio class="audioplayer" id="sound3" src="audio/3.mp3" type="audio/mp3" controls="controls"></audio>
+</div>
+
+<div class="audio-player sound4">
+	<div class="audio-close">X</div>
+	<audio class="audioplayer" id="sound4" src="audio/4.mp3" type="audio/mp3" controls="controls"></audio>
+</div>
+
+<div class="audio-player sound5">
+	<div class="audio-close">X</div>
+	<audio class="audioplayer" id="sound5" src="audio/1.mp3" type="audio/mp3" controls="controls"></audio>
+</div>
+
+<!-- Javascript =============================-->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/vendors/wow.min.js"></script>
+<script src="js/vendors/slick/slick.min.js"></script>
+<script src="js/vendors/tweecool.js"></script>
+<script src="js/vendors/audio.js"></script>
+<script src="js/vendors/jquery.countdown.min.js"></script>
+<script src="js/vendors/swipebox/js/jquery.swipebox.min.js"></script>
+<script src="js/vendors/jquery.easing.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/vendors/audio/mediaelement-and-player.min.js"></script>
+<script src="js/vendors/audio/main.js"></script>
+
+<script src="js/vendors/isotope/isotope.pkgd.js"></script>
+<script src="js/vendors/isotope/main.js"></script>
+
+</body>
+</html>
+
